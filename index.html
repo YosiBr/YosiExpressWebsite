@@ -1,10 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>יוסי אקספרס</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
+<header class="hero">
+    <img src="assets/facebook_cover_picture.jpg" alt="יוסי אקספרס" class="hero-image">
+</header>
+
+<main>
+    <section id="about">
+        <h2>אודותינו</h2>
+        <p>
+            ברוכים הבאים ליוסי אקספרס! אנו מספקים שירותי משלוחים מהירים ואמינים.
+            עם שנים של ניסיון ותשוקה למצוינות, אנו מבטיחים שהחבילות שלך יגיעו
+            ליעדן בבטחה ובזמן.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2>השירותים שלנו</h2>
+        <ul>
+            <li>משלוח מהיום להיום</li>
+            <li>שירותי שליחויות מהירים</li>
+            <li>פתרונות לוגיסטיים מותאמים אישית</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>צרו קשר</h2>
+        <div class="contact-info">
+            <p>אימייל: <a href="mailto:yosibr63@gmail.com">yosibr63@gmail.com</a></p>
+            <p>טלפון: 055-8817727</p>
+        </div>
+        <form id="contact-form" action="https://formsubmit.co/yosibr63@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New contact form submission from Yosi Express">
+            <input type="hidden" name="_captcha" value="false">
+
+            <label for="form-email">אימייל:</label>
+            <input type="email" id="form-email" name="email" required>
+
+            <label for="message">הודעה:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">שלח</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 יוסי אקספרס. כל הזכויות שמורות.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/YosiExpress">
+                <img src="assets/Facebook_Logo_Primary.png" alt="Facebook">
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/script.js"></script>
 </body>
 </html>
